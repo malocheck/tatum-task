@@ -22,7 +22,7 @@ This tool simplifies the process and provides accurate results instantly. Whethe
       <li><code>NEXT_PUBLIC_TATUM_TESTNET_API_KEY</code></li>
       <h2>Where do you find the value?</h2>
       <li>Please create a free Tatum account on https://dashboard.tatum.io/signup</li>
-      <li>In the left sidebar menu choose API Keys and find the TESTNET API KEY</li>
+      <li>In the left sidebar menu choose API Keys and find the TESTNET API KEY. Copy it and add it to the .env to NEXT_PUBLIC_TATUM_TESTNET_API_KEY</li>
       <img src="https://github.com/malocheck/tatum-task/blob/918b4eb895eb7ac5e62a059560cae324af4021d1/src/public/apikey_in_account.png"></img>
     </ul>
 
