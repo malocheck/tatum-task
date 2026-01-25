@@ -36,8 +36,6 @@ This tool simplifies the process and provides accurate results instantly. Whethe
   </li>
 </ol>
 
-## What Could Be Better?
-
 ## Technologies Used
 
 <ul style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -52,6 +50,8 @@ This tool simplifies the process and provides accurate results instantly. Whethe
 <p style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
 This project is open-source and available under the <strong>MIT License</strong>.
 </p>
+
+## What Could Be Better?
 
 <ul style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
   <li>
