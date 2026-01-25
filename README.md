@@ -33,6 +33,9 @@ This tool simplifies the process and provides accurate results instantly. Whethe
   
   <li>Start the development server:
     <pre><code>npm run dev</code></pre>
+  </li>Open the browser and enter http://localhost:3000/ <li>
+  </li>You can convert your BTC amount to CZK easily.<li>
+   
   </li>
 </ol>
 
