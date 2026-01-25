@@ -23,7 +23,7 @@ This tool simplifies the process and provides accurate results instantly. Whethe
       <h2>Where do you find the value?</h2>
       <li>Please create a free Tatum account on https://dashboard.tatum.io/signup</li>
       <li>In the left sidebar menu choose API Keys and find the TESTNET API KEY</li>
-      <img src="/apikey_in_account.png"></img>
+      <img src="public/apikey_in_account.png"></img>
     </ul>
 
   </li>
