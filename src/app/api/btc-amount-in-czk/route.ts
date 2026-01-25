@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     }
 
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_API_BASE_URL}/v4/data/rate/symbol?symbol=${symbol}&basePair=${basePair}`,
+      `https://api.tatum.io//v4/data/rate/symbol?symbol=${symbol}&basePair=${basePair}`,
       {
         method: 'GET',
         headers: {

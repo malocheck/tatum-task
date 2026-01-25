@@ -17,28 +17,26 @@ This tool simplifies the process and provides accurate results instantly. Whethe
 ## How to Run This Locally
 
 <ol style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+<li>Create a <code>.env</code> file in the root directory and add the following environment variable:
+    <ul>
+      <li><code>NEXT_PUBLIC_TATUM_TESTNET_API_KEY</code></li>
+      <h2>Where do you find the value?</h2>
+      <li>Please create a free Tatum account on https://dashboard.tatum.io/signup</li>
+      <li>In the left sidebar menu choose API Keys and find the TESTNET API KEY</li>
+      <img src="/apikey_in_account.png"></img>
+    </ul>
+
+  </li>
   <li>Install dependencies:
     <pre><code>npm install</code></pre>
   </li>
-  <li>Create a <code>.env</code> file in the root directory and add the following environment variables:
-    <ul>
-      <li><code>NEXT_PUBLIC_TATUM_TESTNET_API_KEY</code>: Your API key from Tatum (you can get this from your free Tatum account).</li>
-      <li><code>NEXT_PUBLIC_API_BASE_URL</code>: The base URL for the API.</li>
-    </ul>
-  </li>
+  
   <li>Start the development server:
     <pre><code>npm run dev</code></pre>
   </li>
 </ol>
 
 ## What Could Be Better?
-
-<ul style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-  <li>
-    Add an option to upload an xPub file to get the current status of the wallet balance and its value in CZK. 
-    This would be a great feature to handle locally for enhanced functionality.
-  </li>
-</ul>
 
 ## Technologies Used
 
@@ -54,6 +52,13 @@ This tool simplifies the process and provides accurate results instantly. Whethe
 <p style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
 This project is open-source and available under the <strong>MIT License</strong>.
 </p>
+
+<ul style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  <li>
+    Add an option to upload an xPub file to get the current status of the wallet balance and its value in CZK. 
+    This would be a great feature to handle locally for enhanced functionality.
+  </li>
+</ul>
 
 <footer style="text-align: center; font-size: 0.9rem; color: #666; margin-top: 2rem;">
   <p>&copy; 2026 BTC to CZK Converter. All rights reserved.</p>
